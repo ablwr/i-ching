@@ -1,6 +1,6 @@
 # I Ching
 
-A guiding light!
+[A guiding light!](https://ablwr.github.io/i-ching/)
 
 Don't expect this code to be good, but do expect it to work.
 
