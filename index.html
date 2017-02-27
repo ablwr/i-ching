@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>I Ching</title>
+	<link href="https://fonts.googleapis.com/css?family=Ruthie" rel="stylesheet">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/css.css">
+</head>
+<body id="container">
+	<canvas id="canvas"></canvas>
+	<div class="container main">
+		<div class="row">
+			<div class="four columns">&nbsp;</div>
+			<div class="four columns center">
+				<h1>I Ching</h1>
+				<p id="translation"><i>Classic of Changes</i></p>
+				<button type="button" class="cast">Cast!</button>
+				<p id="number"></p>
+				<div id="hexagram" class="text-center"></div>
+				<button type="button" class="show" style="display:none;">Show!</button>
+			</div>
+			<div class="four columns" style="text-align: right;">&nbsp;</div>
+		</div>
+
+		<div class="row">
+			<div id="left" class="six columns center" style="display:none;">
+				<h4>Cast Hexagram</h4>
+			</div>
+			<div id="right" class="six columns center" style="display:none;">
+				<h4>Transformed Hexagram</h4>
+			</div>
+		</div>
+		<div class="row center">
+			<button id="again" style="display:none;"><a href="" style="text-decoration:none;">again!</a></button>
+		</div>
+	</div>
+	<footer class="footer container"><span class="copyleft">©</span> ablwr</footer>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="yarrow-sort.js"></script>
+	<!--  Uncool way to grab faux-JSON but dont feel like running a server -->
+	<script type="text/javascript" src="hexagrams.js"></script>
+<script>
+	var results = ""
+	$('.cast').on('click', function(e){
+		LineCast();
+		results += ResultingLine;
+    var click_counter = ($(this).data('click-counter') || 0) + 1;
+		$('#number').text(click_counter);
+    $(this).data('click-counter', click_counter);
+    if (click_counter >= 6){
+      $(this).prop('disabled', true);
+			$(this).hide();
+			$('#number').hide();
+			$('.show').show();
+    };
+	});
+
+	$('.show').on('click', function(e){
+		$('#left').show();
+		$('#right').show();
+		var results_left = results.replace(/x/g, "0").replace(/o/g, "1")
+		var results_right = results.replace(/x/g, "1").replace(/o/g, "0")
+		var no_changing_lines = false;
+		$('<h2>' + hexagrams[0][results_left]['hexagram'] + '</h2>').appendTo('#left');
+		$('<p>' + hexagrams[0][results_left]['definition'] + '</p>').appendTo('#left');
+		$('<p><a target="_blank" href="https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_' +
+		hexagrams[0][results_left]['number'] +
+		'">[wikipedia]</a>  <a target="_blank" href="http://www.jamesdekorne.com/GBCh/hex' +
+		hexagrams[0][results_left]['number'] +
+		'.htm">[gnostic]</a></p>').appendTo('#left');
+		if (results_left == results_right) {
+			no_changing_lines == true;
+			$('<p>No changing lines! Only the cast hexagram applies!</p>').appendTo('#right');
+		} else {
+			$('<h2>' + hexagrams[0][results_right]['hexagram'] + '</h2>').appendTo('#right');
+			$('<p>' + hexagrams[0][results_right]['definition'] + '</p>').appendTo('#right');
+			$('<p><a target="_blank" href="https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_' +
+			hexagrams[0][results_right]['number'] +
+			'">[wikipedia]</a>  <a target="_blank" href="http://www.jamesdekorne.com/GBCh/hex' +
+			hexagrams[0][results_right]['number'] +
+			'.htm">[gnostic]</a></p>').appendTo('#right');
+		};
+		$('#again').show()
+	});
+</script>
+</body>
+</html>

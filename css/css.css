@@ -1,0 +1,96 @@
+#container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index:-1;
+  background: linear-gradient(0deg, #542B72, #832C65, #3D3175, #542B72);
+  background-size: 800% 800%;
+  -webkit-animation: colors 60s ease infinite;
+  -moz-animation: colors 60s ease infinite;
+  animation: colors 60s ease infinite;
+}
+
+h1 {
+  font-family: 'Ruthie', cursive;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+a {
+  color: black;
+}
+
+#translation {
+  padding-right: 48px;
+  margin-top: -16px;
+}
+
+#hexagram {
+ padding-top: 36px;
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 48px;
+  margin-top: 48px;
+  border: 2px solid black
+}
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin-top: 14px;
+  border: 2px solid black
+}
+
+.cast {
+  border-color: rgb(165, 255, 76);
+}
+
+.cast:hover {
+  border-color: rgb(122, 191, 55)
+}
+
+.center {
+  text-align: center;
+}
+
+.show {
+  margin-top: 14px;
+  border-color: rgb(165, 255, 76);
+}
+
+.show:hover {
+  border-color: rgb(122, 191, 55)
+}
+
+@-webkit-keyframes colors {
+  0%{background-position:0% 0%}
+  100%{background-position:0% 100%}
+}
+@-moz-keyframes colors {
+  0%{background-position:0% 0%}
+  100%{background-position:0% 100%}
+}
+@keyframes colors {
+  0%{background-position:0% 0%}
+  100%{background-position:0% 100%}
+}
+
+.copyleft {
+   display: inline-block;
+   text-align: right;
+   margin: 0px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
