@@ -22,6 +22,15 @@ h1 {
   margin-bottom: 0px;
 }
 
+h2 {
+  font-size:32px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 140px;
+}
+
 a {
   color: black;
 }
@@ -33,6 +42,14 @@ a {
 
 #hexagram {
  padding-top: 36px;
+}
+
+#number {
+  font-size: 48px;
+}
+
+#guide {
+  text-align:left;
 }
 
 .main {
