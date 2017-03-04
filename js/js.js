@@ -6,18 +6,9 @@ $('#cast').on('click', function(e){
 
   $('#number').append("⌭");
 
-  if (ResultingLine == 'o') {
-    $('#changing').prepend("<p>---o---</p>");
-  } else if (ResultingLine == 'x') {
-    $('#changing').prepend("<p>---x---</p>");
-  } else if (ResultingLine == '0') {
-    $('#changing').prepend("<p>--- ---</p>");
-  } else if (ResultingLine == '1') {
-    $('#changing').prepend("<p>-------</p>");
-  }
-
   $(this).data('click-counter', click_counter);
   if (click_counter >= 6){
+
     $(this).prop('disabled', true);
     $(this).fadeOut('slow');
     $('#number').fadeOut('slow');
@@ -64,15 +55,29 @@ $('#cast').on('click', function(e){
       $('<p>No changing lines! Only the cast hexagram applies!</p>').appendTo('#changing');
     }
 
+    var indices = [];
+    for(var i=0; i<results.length;i++) {
+        if (results[i] === "x" || results[i] === "o") indices.push(i);
+    }
+
     var changing_lines = ((results.match(/o|x/g) || []).length)
+
     if (changing_lines === 1) {
       $('<br/><p>There is one changing line. Consult this changing line.</p>').appendTo('#changing');
+      change_text = hexagrams[0][results_left]['number'] + "_" + (indices[0]+1)
+      $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
     } else if (changing_lines === 2) {
       $('<br/><p>There are two changing lines. The upper line prevails.</p>').appendTo('#changing');
+      change_text = hexagrams[0][results_left]['number'] + "_" + (indices[1]+1)
+      $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
     } else if (changing_lines === 3) {
       $('<br/><p>There are three changing lines. The middle line prevails.</p>').appendTo('#changing');
+      change_text = hexagrams[0][results_left]['number'] + "_" + (indices[1]+1)
+      $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
     } else if (changing_lines === 4) {
       $('<br/><p>There are four changing lines. The upper, non-changing line prevails.</p>').appendTo('#changing');
+      change_text = hexagrams[0][results_left]['number'] + "_" + (indices[3]+1)
+      $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
     } else if (changing_lines === 5) {
       $('<br/><p>There are five changing lines. The only non-changing line prevails.</p>').appendTo('#changing');
     } else if (changing_lines === 6) {

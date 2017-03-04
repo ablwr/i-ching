@@ -1,4 +1,4 @@
-var changing_lines = [{
+var changing_map = [{
 "1_1" : "The dragon remains beneath the surface. Do not act.",
 "1_2" : "The dragon climbs to the surface. Seek advice from an authority you respect.",
 "1_3" : "The Superior Person builds by day and remains vigilant through the night. Danger, but he will persevere.",
