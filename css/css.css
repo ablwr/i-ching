@@ -52,6 +52,18 @@ a {
   text-align:left;
 }
 
+#changing {
+  background-color: rgba(219, 112, 147, 0.2);
+  padding-bottom: 48px;
+  margin-top: 48px;
+}
+
+#changing p {
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 1;
+}
+
 .main {
   background-color: rgba(255, 255, 255, 0.5);
   padding-bottom: 48px;
