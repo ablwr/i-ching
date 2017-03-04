@@ -63,25 +63,25 @@ $('#cast').on('click', function(e){
     var changing_lines = ((results.match(/o|x/g) || []).length)
 
     if (changing_lines === 1) {
-      $('<br/><p>There is one changing line. Consult this changing line.</p>').appendTo('#changing');
+      $('<p>There is one changing line. Consult this changing line.</p>').appendTo('#changing');
       change_text = hexagrams[0][results_left]['number'] + "_" + (indices[0]+1)
       $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
     } else if (changing_lines === 2) {
-      $('<br/><p>There are two changing lines. The upper line prevails.</p>').appendTo('#changing');
+      $('<p>There are two changing lines. The upper line prevails.</p>').appendTo('#changing');
       change_text = hexagrams[0][results_left]['number'] + "_" + (indices[1]+1)
       $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
     } else if (changing_lines === 3) {
-      $('<br/><p>There are three changing lines. The middle line prevails.</p>').appendTo('#changing');
+      $('<p>There are three changing lines. The middle line prevails.</p>').appendTo('#changing');
       change_text = hexagrams[0][results_left]['number'] + "_" + (indices[1]+1)
       $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
     } else if (changing_lines === 4) {
-      $('<br/><p>There are four changing lines. The upper, non-changing line prevails.</p>').appendTo('#changing');
+      $('<p>There are four changing lines. The upper, non-changing line prevails.</p>').appendTo('#changing');
       change_text = hexagrams[0][results_left]['number'] + "_" + (indices[3]+1)
       $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
     } else if (changing_lines === 5) {
-      $('<br/><p>There are five changing lines. The only non-changing line prevails.</p>').appendTo('#changing');
+      $('<p>There are five changing lines. The only non-changing line prevails.</p>').appendTo('#changing');
     } else if (changing_lines === 6) {
-      $('<br/><p>All changing lines! Only the transformed hexagram applies!</p>').appendTo('#changing');
+      $('<p>All changing lines! Only the transformed hexagram applies!</p>').appendTo('#changing');
     }
 
     // show the transformed hexagram

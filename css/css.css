@@ -58,9 +58,15 @@ a {
   margin-top: 48px;
 }
 
+#changing h2 {
+  margin-top: 2rem;
+}
+
 #changing p {
   margin-bottom: 0;
   margin-top: 0;
+  margin-left: 22px;
+  margin-right: 22px;
 }
 
 .main {
