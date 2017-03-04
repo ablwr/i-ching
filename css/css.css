@@ -66,11 +66,11 @@ a {
   border: 2px solid black
 }
 
-.cast {
+.green {
   border-color: rgb(165, 255, 76);
 }
 
-.cast:hover {
+.green:hover {
   border-color: rgb(122, 191, 55)
 }
 

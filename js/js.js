@@ -1,5 +1,5 @@
 var results = ""
-$('.cast').on('click', function(e){
+$('#cast').on('click', function(e){
   LineCast();
   results += ResultingLine;
   var click_counter = ($(this).data('click-counter') || 0) + 1;

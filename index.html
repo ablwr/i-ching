@@ -17,7 +17,7 @@
 				<h1>I Ching</h1>
 				<p id="translation"><i>Classic of Changes</i></p>
 				<p id="guide">Think of a question to ask the oracle, reflect on this question, then press the Cast button six times to cast six lines.</p>
-				<button type="button" class="cast">Cast!</button>
+				<button type="button" class="green" id="cast">Cast!</button>
 				<p id="number"></p>
 				<div id="hexagram" class="text-center"></div>
 			</div>
@@ -25,14 +25,17 @@
 		</div>
 		<div class="row">
 			<div id="left" class="six columns center" style="display:none;">
+				<hr/>
 				<h2>Cast Hexagram</h2>
 			</div>
 			<div id="right" class="six columns center" style="display:none;">
+				<hr/>
 				<h2>Transformed Hexagram</h2>
 			</div>
 		</div>
-		<div class="row center">
-			<a href="" style="text-decoration:none;"><button id="again" style="display:none;">Again!</button></a>
+		<div class="row center" id="again" style="display:none;">
+			<hr/>
+			<a href="" style="text-decoration:none;"><button class="green">Again!</button></a>
 		</div>
 	</div>
 	<footer class="footer container"><span class="copyleft">©</span> ablwr</footer>
