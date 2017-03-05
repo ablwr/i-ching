@@ -4,14 +4,14 @@ $('#cast').on('click', function(e){
   results += ResultingLine;
   var click_counter = ($(this).data('click-counter') || 0) + 1;
 
-  $('#number').append("⌭");
+  $('.number').append("<div class='line'></div>");
 
   $(this).data('click-counter', click_counter);
   if (click_counter >= 6){
 
     $(this).prop('disabled', true);
     $(this).fadeOut('slow');
-    $('#number').fadeOut('slow');
+    $('.number').fadeOut('slow');
     $('#guide').fadeOut('slow');
     $('#left').fadeIn('slow');
     $('#right').fadeIn('slow');

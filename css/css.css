@@ -52,8 +52,32 @@ a {
  padding-top: 36px;
 }
 
-#number {
-  font-size: 48px;
+.number {
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 105px;
+  height: 100px;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  margin-left: 10px;
+  width: 60px;
+  height: 4px;
+  background: #FFF;
+  animation: rolling 1.5s infinite ease;
+}
+
+.line:nth-of-type(2) { animation-delay: 0.1s; }
+.line:nth-of-type(3) { animation-delay: 0.2s; }
+.line:nth-of-type(4) { animation-delay: 0.3s; }
+.line:nth-of-type(5) { animation-delay: 0.4s; }
+.line:nth-of-type(6) { animation-delay: 0.5s; }
+
+@keyframes rolling {
+  0%   {transform:rotate(0deg);}
+  100% {transform:rotate(360deg);}
 }
 
 #guide {
@@ -61,11 +85,17 @@ a {
 }
 
 #changing {
-  background-color: rgba(219, 112, 147, 0.2);
+  background-color: rgba(200, 100, 150, 0.3);
   padding-bottom: 48px;
   padding-left: 24px;
   padding-right: 24px;
   margin-top: 48px;
+  animation: change-in 2s alternate linear;
+}
+
+@keyframes change-in {
+  0%   {opacity:0;);}
+  100% {opacity:1;);}
 }
 
 #changing h2 {
@@ -80,7 +110,7 @@ a {
 }
 
 .main {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
   padding-bottom: 48px;
   margin-top: 48px;
   border: 2px solid black
