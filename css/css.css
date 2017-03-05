@@ -61,6 +61,7 @@ a {
 
 .line {
   position: absolute;
+  opacity: 0.4;
   top: 50%;
   margin-left: 10px;
   width: 60px;
@@ -69,11 +70,11 @@ a {
   animation: rolling 1.5s infinite ease;
 }
 
-.line:nth-of-type(2) { animation-delay: 0.1s; }
-.line:nth-of-type(3) { animation-delay: 0.2s; }
-.line:nth-of-type(4) { animation-delay: 0.3s; }
-.line:nth-of-type(5) { animation-delay: 0.4s; }
-.line:nth-of-type(6) { animation-delay: 0.5s; }
+.line:nth-of-type(2) { animation-delay: 0.1s;opacity: 0.5; }
+.line:nth-of-type(3) { animation-delay: 0.2s;opacity: 0.6; }
+.line:nth-of-type(4) { animation-delay: 0.3s;opacity: 0.7; }
+.line:nth-of-type(5) { animation-delay: 0.4s;opacity: 0.8; }
+.line:nth-of-type(6) { animation-delay: 0.5s;opacity: 0.9; }
 
 @keyframes rolling {
   0%   {transform:rotate(0deg);}
