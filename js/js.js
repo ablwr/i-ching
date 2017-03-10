@@ -57,7 +57,7 @@ $('#cast').on('click', function(e){
 
     var indices = [];
     for(var i=0; i<results.length;i++) {
-        if (results[i] === "x" || results[i] === "o") indices.push(i);
+      if (results[i] === "x" || results[i] === "o") indices.push(i);
     }
 
     var changing_lines = ((results.match(/o|x/g) || []).length)
@@ -80,6 +80,11 @@ $('#cast').on('click', function(e){
       $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
     } else if (changing_lines === 5) {
       $('<p>There are five changing lines. The only non-changing line prevails.</p>').appendTo('#changing');
+      for(var i=1;i<=6;i++) {
+        if(indices.indexOf(i) == -1){missing = i}
+      }
+      change_text = hexagrams[0][results_left]['number'] + "_" + missing
+      $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
     } else if (changing_lines === 6) {
       $('<p>All changing lines! Only the transformed hexagram applies!</p>').appendTo('#changing');
     }
@@ -94,6 +99,6 @@ $('#cast').on('click', function(e){
     hexagrams[0][results_right]['number'] +
     '.htm">[gnostic]</a></p>').appendTo('#right');
 
-    $('#again').show()
+    $('#again').fadeIn('slow')
     };
 });
