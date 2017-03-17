@@ -2,6 +2,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  font-size: 1.8em;
 }
 
 #canvas {
@@ -18,15 +19,21 @@
 
 #left {
   padding-left: 24px;
+  animation: change-in 2s alternate linear;
 }
 
 #right {
   padding-right: 24px;
+  animation: change-in 2s alternate linear;
+}
+
+#changing_text {
+  font-weight: 700;
 }
 
 h1 {
   font-family: 'Ruthie', cursive;
-  font-size: 80px;
+  font-size: 105px;
   margin-bottom: 0px;
 }
 
@@ -52,7 +59,7 @@ a {
  padding-top: 36px;
 }
 
-.number {
+#number {
   position: relative;
   box-sizing: border-box;
   padding-left: 105px;

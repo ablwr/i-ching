@@ -21,7 +21,7 @@
 					happen if I continue down this path?</i>
 					Reflect on this question, then press the Cast button six times to cast six lines.</p>
 				<button type="button" class="green" id="cast">Cast!</button>
-				  <div class="number">
+				  <div id="number">
 					</div>
 				<div id="hexagram" class="text-center"></div>
 			</div>
@@ -29,15 +29,24 @@
 		</div>
 		<div id="changing" class="twelve columns center" style="display:none;">
 			<h2>Changing lines</h2>
+			<p id="changing_lines"></p>
+			<p id="changing_desc"></p>
+			<p id="changing_text"></p>
 		</div>
 		<div class="row">
 			<div id="left" class="six columns center" style="display:none;">
 				<hr/>
 				<h2>Cast Hexagram</h2>
+				<h3 id="left_hex"></h3>
+				<p id="left_definition"></p>
+				<p id="left_description"></p>
 			</div>
 			<div id="right" class="six columns center" style="display:none;">
 				<hr/>
 				<h2>Transformed Hexagram</h2>
+				<h3 id="right_hex"></h3>
+				<p id="right_definition"></p>
+				<p id="right_description"></p>
 			</div>
 		</div>
 		<div class="row center" id="again" style="display:none;">
@@ -46,7 +55,6 @@
 		</div>
 	</div>
 	<footer class="footer container"><span class="copyleft">©</span> <a href="https://github.com/ablwr">ablwr</a></footer>
-	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/yarrow-sort.js"></script>
 	<!--  Uncool way to grab faux-JSON but dont feel like running a server -->
 	<script type="text/javascript" src="js/hexagrams.js"></script>

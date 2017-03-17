@@ -1,104 +1,142 @@
-var results = ""
-$('#cast').on('click', function(e){
+let results = ""
+let results_left, results_right
+let click_counter = 0;
+const cast = document.getElementById('cast')
+const number_text = document.getElementById('number')
+let changing = document.getElementById('changing')
+let left = document.getElementById('left')
+let right = document.getElementById('right')
+
+
+cast.addEventListener('click', function(e){
   LineCast();
   results += ResultingLine;
-  var click_counter = ($(this).data('click-counter') || 0) + 1;
+  results_left = results.replace(/x/g, "0").replace(/o/g, "1")
+  results_right = results.replace(/x/g, "1").replace(/o/g, "0")
 
-  $('.number').append("<div class='line'></div>");
+  line = document.createElement('div')
+  line.classList.add('line')
+  number_text.appendChild(line);
+  click_counter += 1
 
-  $(this).data('click-counter', click_counter);
   if (click_counter >= 6){
 
-    $(this).prop('disabled', true);
-    $(this).fadeOut('slow');
-    $('.number').fadeOut('slow');
-    $('#guide').fadeOut('slow');
-    $('#left').fadeIn('slow');
-    $('#right').fadeIn('slow');
-    $('#changing').fadeIn('slow');
-    var results_left = results.replace(/x/g, "0").replace(/o/g, "1")
-    var results_right = results.replace(/x/g, "1").replace(/o/g, "0")
-    var no_changing_lines = false;
+    document.getElementById('cast').setAttribute('disabled', true);
+    fadeAway(cast);
+    fadeAway(number_text);
+    fadeAway(document.getElementById('guide'));
+    document.getElementById('left').style.display = ''
+    document.getElementById('right').style.display = ''
+    changing.style.display = ''
 
-    if (results_right[0] != results_left[0]){
-      $('#changing').append('<p>Line 1</p>')
-    }
-     if (results_right[1] != results_left[1]){
-      $('#changing').append('<p>Line 2</p>')
-    }
-     if (results_right[2] != results_left[2]){
-      $('#changing').append('<p>Line 3</p>')
-    }
-     if (results_right[3] != results_left[3]){
-      $('#changing').append('<p>Line 4</p>')
-    }
-     if (results_right[4] != results_left[4]){
-      $('#changing').append('<p>Line 5</p>')
-    }
-     if (results_right[5] != results_left[5]){
-      $('#changing').append('<p>Line 6</p>')
+    // list the changing lines
+    for (i=0; i<results_left.length; i++) {
+      if (results_right[i] != results_left[i]){
+        cl = document.getElementById('changing_lines')
+        cl.innerHTML += 'Line ' + (i+1)
+        cl.appendChild(document.createElement('br'))
+      }
     }
 
     // show the cast hexagram
-    $('<h3>' + hexagrams[0][results_left]['hexagram'] + '</h3>').appendTo('#left');
-    $('<p>' + hexagrams[0][results_left]['definition'] + '</p>').appendTo('#left');
-    $('<p>' + hexagrams[0][results_left]['description'] + '</p>').appendTo('#left');
-    $('<p><a target="_blank" href="https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_' +
-    hexagrams[0][results_left]['number'] +
-    '">[wikipedia]</a>  <a target="_blank" href="http://www.jamesdekorne.com/GBCh/hex' +
-    hexagrams[0][results_left]['number'] +
-    '.htm">[gnostic]</a></p>').appendTo('#left');
+    document.getElementById('left_hex').innerHTML += hexagrams[0][results_left]['hexagram']
+    document.getElementById('left_definition').innerHTML += hexagrams[0][results_left]['definition']
+    document.getElementById('left_description').innerHTML += hexagrams[0][results_left]['description']
+    buildLinks(left);
 
     // check for rule 1, no lines changing
     if (results_left == results_right) {
-      no_changing_lines == true;
-      $('<p>No changing lines! Only the cast hexagram applies!</p>').appendTo('#changing');
+      p = document.createElement('p')
+      p.innerHTML = 'No changing lines! Only the cast hexagram applies!'
+      changing.appendChild(p)
     }
 
-    var indices = [];
-    for(var i=0; i<results.length;i++) {
+    let indices = [];
+    for(i=0; i<results.length;i++) {
       if (results[i] === "x" || results[i] === "o") indices.push(i);
     }
 
-    var changing_lines = ((results.match(/o|x/g) || []).length)
-
+    changing_lines = ((results.match(/o|x/g) || []).length)
+    changing_desc = document.getElementById('changing_desc')
+    changing_text = document.getElementById('changing_text')
     if (changing_lines === 1) {
-      $('<p>There is one changing line. Consult this changing line.</p>').appendTo('#changing');
+      changing_desc.innerHTML += 'There is one changing line. Consult this changing line.'
       change_text = hexagrams[0][results_left]['number'] + "_" + (indices[0]+1)
-      $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
+      changing_text.innerHTML += changing_map[0][change_text]
     } else if (changing_lines === 2) {
-      $('<p>There are two changing lines. The upper line prevails.</p>').appendTo('#changing');
+      changing_desc.innerHTML += 'There are two changing lines. The upper line prevails..'
       change_text = hexagrams[0][results_left]['number'] + "_" + (indices[1]+1)
-      $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
+      changing_text.innerHTML += changing_map[0][change_text]
     } else if (changing_lines === 3) {
-      $('<p>There are three changing lines. The middle line prevails.</p>').appendTo('#changing');
+      changing_desc.innerHTML += 'There are three changing lines. The middle line prevails.'
       change_text = hexagrams[0][results_left]['number'] + "_" + (indices[1]+1)
-      $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
+      changing_text.innerHTML += changing_map[0][change_text]
     } else if (changing_lines === 4) {
-      $('<p>There are four changing lines. The upper, non-changing line prevails.</p>').appendTo('#changing');
+      changing_desc.innerHTML += 'There are four changing lines. The upper, non-changing line prevails.'
       change_text = hexagrams[0][results_left]['number'] + "_" + (indices[3]+1)
-      $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
+      changing_text.innerHTML += changing_map[0][change_text]
     } else if (changing_lines === 5) {
-      $('<p>There are five changing lines. The only non-changing line prevails.</p>').appendTo('#changing');
-      for(var i=1;i<=6;i++) {
-        if(indices.indexOf(i) == -1){missing = i}
-      }
+      changing_desc.innerHTML += 'There are five changing lines. The only non-changing line prevails.'
+      for(var i=1;i<=6;i++) { if(indices.indexOf(i) == -1){missing = i} }
       change_text = hexagrams[0][results_left]['number'] + "_" + missing
-      $('<p><b>' + changing_map[0][change_text] + '</b></p>').appendTo('#changing');
+      changing_text.innerHTML += changing_map[0][change_text]
     } else if (changing_lines === 6) {
-      $('<p>All changing lines! Only the transformed hexagram applies!</p>').appendTo('#changing');
+      changing_desc.innerHTML = 'All changing lines! Only the transformed hexagram applies!'
     }
 
     // show the transformed hexagram
-    $('<h3>' + hexagrams[0][results_right]['hexagram'] + '</h3>').appendTo('#right');
-    $('<p>' + hexagrams[0][results_right]['definition'] + '</p>').appendTo('#right');
-    $('<p>' + hexagrams[0][results_right]['description'] + '</p>').appendTo('#right');
-    $('<p><a target="_blank" href="https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_' +
-    hexagrams[0][results_right]['number'] +
-    '">[wikipedia]</a>  <a target="_blank" href="http://www.jamesdekorne.com/GBCh/hex' +
-    hexagrams[0][results_right]['number'] +
-    '.htm">[gnostic]</a></p>').appendTo('#right');
+    document.getElementById('right_hex').innerHTML += hexagrams[0][results_right]['hexagram']
+    document.getElementById('right_definition').innerHTML += hexagrams[0][results_right]['definition']
+    document.getElementById('right_description').innerHTML += hexagrams[0][results_right]['description']
+    buildLinks(right);
 
-    $('#again').fadeIn('slow')
+    fadeAlong(document.getElementById('again'))
     };
 });
+
+function fadeAlong(el) {
+  el.style.opacity = 0;
+  el.style.display = '';
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity + (new Date() - last) / 400;
+    last = +new Date();
+    if (+el.style.opacity < 1) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    }
+  };
+  tick();
+}
+
+function fadeAway(el) {
+  el.style.opacity = 1;
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity + (new Date() + last) / 400;
+    last = +new Date();
+    if (+el.style.opacity < 0) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    }
+  };
+  tick();
+  el.style.display = 'none';
+}
+
+function buildLinks(el) {
+  left_or_right = (el.id === 'left') ? left : right
+  link_results = (el.id === 'left') ? results_left : results_right
+  a = document.createElement('a');
+  wiki = 'https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_' + hexagrams[0][link_results]['number']
+  a.setAttribute('href', wiki);
+  a.innerHTML = '[wikipedia] '
+  a.target = "_blank"
+
+  a2 = document.createElement('a');
+  gnostic = 'http://www.jamesdekorne.com/GBCh/hex' + hexagrams[0][link_results]['number'] + '.htm'
+  a2.setAttribute('href',gnostic)
+  a2.innerHTML = ' [gnostic]'
+  a2.target = "_blank"
+
+  left_or_right.appendChild(a);
+  left_or_right.appendChild(a2);
+}
