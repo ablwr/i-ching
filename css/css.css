@@ -62,15 +62,16 @@ a {
 #number {
   position: relative;
   box-sizing: border-box;
-  padding-left: 105px;
   height: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .line {
   position: absolute;
   opacity: 0.4;
   top: 50%;
-  margin-left: 10px;
   width: 60px;
   height: 4px;
   background: #FFF;
