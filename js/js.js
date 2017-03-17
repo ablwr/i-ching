@@ -1,11 +1,11 @@
-let results = ""
-let results_left, results_right
-let click_counter = 0;
-const cast = document.getElementById('cast')
-const number_text = document.getElementById('number')
-let changing = document.getElementById('changing')
-let left = document.getElementById('left')
-let right = document.getElementById('right')
+var results = ""
+var results_left, results_right
+var click_counter = 0;
+var cast = document.getElementById('cast')
+var number_text = document.getElementById('number')
+var changing = document.getElementById('changing')
+var left = document.getElementById('left')
+var right = document.getElementById('right')
 
 
 cast.addEventListener('click', function(e){
