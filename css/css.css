@@ -1,7 +1,13 @@
 body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.4;
+}
+
+@media all and (max-width: 1000px) {
+  body {
+    font-size: 36px;
+  }
 }
 
 button {
@@ -23,14 +29,18 @@ button {
 
 footer {
   flex: 1 100%;
-  height: 28px;
+  height: 2.5rem;
   background-color: rgba(255, 255, 255, 0.15);
   text-align: center;
-  margin-top: 18px;
+  margin-top: 2rem;
   border-radius: 1px;
-  box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.08); 
+  box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.08);
   margin-left: 18px;
   margin-right: 18px;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 #container {
@@ -70,13 +80,11 @@ footer {
   animation: colors 60s ease infinite;
 }
 
-#left {
-  padding-left: 24px;
-  animation: change-in 2s alternate linear;
+hr {
+    opacity: 0.5;
 }
 
-#right {
-  padding-right: 24px;
+#left, #right {
   animation: change-in 2s alternate linear;
 }
 
@@ -90,18 +98,18 @@ footer {
 
 h1 {
   font-family: 'Ruthie', cursive;
-  font-size: 105px;
+  font-size: 6em;
   margin-bottom: 0px;
   font-weight: 300;
 }
 
 h2 {
-  font-size:32px;
+  font-size: 2rem;
   font-weight: 500;
 }
 
 h3 {
-  font-size: 140px;
+  font-size: 1.8rem;
 }
 
 a {
@@ -109,18 +117,19 @@ a {
 }
 
 #translation {
-  padding-right: 48px;
-  margin-top: -16px;
+  padding-right: 4em;
+  margin-top: -1rem;
 }
 
 #hexagram {
- padding-top: 36px;
+ padding-top: 2rem;
 }
 
 #number {
   position: relative;
   box-sizing: border-box;
-  height: 100px;
+  height: 10rem;
+  margin-top: 2rem;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -129,8 +138,7 @@ a {
 .line {
   position: absolute;
   opacity: 0.4;
-  top: 50%;
-  width: 60px;
+  width: 8em;
   height: 4px;
   background: #FFF;
   animation: rolling 1.5s infinite ease;
@@ -151,15 +159,12 @@ a {
   text-align:left;
   margin-left: auto;
   margin-right: auto;
-  max-width: 400px;
+  max-width: 800px;
 }
 
 #changing {
   background-color: rgba(200, 100, 150, 0.3);
-  padding-bottom: 48px;
-  padding-left: 24px;
-  padding-right: 24px;
-  margin-top: 48px;
+  padding: 1rem;
   animation: change-in 2s alternate linear;
 }
 
