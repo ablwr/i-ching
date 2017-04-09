@@ -135,6 +135,10 @@ a {
   align-items: center;
 }
 
+#again {
+  padding-top: 2rem;
+}
+
 .line {
   position: absolute;
   opacity: 0.4;
