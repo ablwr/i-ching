@@ -31,6 +31,7 @@ footer {
   height: 2.5rem;
   text-align: center;
   margin-top: 2rem;
+  padding-bottom: 2rem;
   max-width: 800px;
 }
 
@@ -42,10 +43,6 @@ footer a {
   position: absolute;
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   flex: 1;
   justify-content: center;
@@ -75,7 +72,7 @@ footer a {
 }
 
 hr {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 #left, #right {
@@ -135,7 +132,6 @@ a {
 }
 
 .line {
-  position: absolute;
   opacity: 0.4;
   width: 8em;
   height: 4px;
