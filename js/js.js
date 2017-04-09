@@ -44,13 +44,6 @@ cast.addEventListener('click', function(e){
     document.getElementById('left_description').innerHTML += hexagrams[0][resultsLeft]['description']
     buildLinks(left);
 
-    // check for rule 1, no lines changing
-    if (resultsLeft == resultsRight) {
-      p = document.createElement('p')
-      p.innerHTML = 'No changing lines! Only the cast hexagram applies!'
-      changing.appendChild(p)
-    }
-
     let indices = [];
     for(i=0; i<results.length;i++) {
       if (results[i] === "x" || results[i] === "o") indices.push(i);
@@ -59,7 +52,9 @@ cast.addEventListener('click', function(e){
     changing_lines = ((results.match(/o|x/g) || []).length)
     changing_desc = document.getElementById('changing_desc')
     changing_text = document.getElementById('changing_text')
-    if (changing_lines === 1) {
+    if (changing_lines === 0) {
+      changing_desc.innerHTML += 'No changing lines! Only the cast hexagram applies!'
+    } else if (changing_lines === 1) {
       changing_desc.innerHTML += 'There is one changing line. Consult this changing line.'
       change_text = hexagrams[0][resultsLeft]['number'] + "_" + (indices[0]+1)
       changing_text.innerHTML += changing_map[0][change_text]

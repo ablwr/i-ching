@@ -127,7 +127,6 @@ a {
 }
 
 #number {
-  position: relative;
   box-sizing: border-box;
   height: 10rem;
   margin-top: 2rem;
