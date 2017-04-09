@@ -11,32 +11,35 @@
 	<canvas id="canvas"></canvas>
 	<div class="main">
 		<div class="introduction">
-				<h1>I Ching</h1>
-				<p id="translation"><i>Classic of Changes</i></p>
-				<p id="guide">Think of a question to ask the oracle. Like tarot, this question should be phrased
-					with intent or action, in the context of: <i>What will happen if I make this choice? What will
-					happen if I continue down this path?</i>
-					Reflect on this question, then press the Cast button six times to cast six lines.</p>
-				<button type="button" class="green" id="cast">Cast!</button>
-				  <div id="number">
-					</div>
-				<div id="hexagram" class="text-center"></div>
+			<h1 class="animate fadeDown">I Ching</h1>
+			<p id="translation" class="animate FadeUp"><i>Classic of Changes</i></p>
+			<p id="guide" class="animate miniFadeUp">
+				Think of a question to ask the oracle. Like tarot, this question should be phrased
+				with intent or action, in the context of:
+				<i>What will happen if I make this choice? What will
+				happen if I continue down this path?</i>
+				Reflect on this question,
+				then press the Cast button six times to cast six lines.</p>
+			<button type="button" class="green hang" id="cast">Cast!</button>
+			  <div id="number">
+				</div>
+			<div id="hexagram" class="text-center"></div>
 		</div>
-		<div id="changing" style="display:none;">
-			<h2>Changing lines</h2>
-			<p id="changing_lines"></p>
-			<p id="changing_desc"></p>
-			<p id="changing_text"></p>
-		</div>
-		<div class="row">
-			<div id="left" style="display:none;">
+		<div id="thatWhichIsCast" class="animate" style="display:none;">
+			<div id="changing">
+				<h2>Changing lines</h2>
+				<p id="changing_lines"></p>
+				<p id="changing_desc"></p>
+				<p id="changing_text"></p>
+			</div>
+			<div id="left">
 				<hr/>
 				<h2>Cast Hexagram</h2>
 				<h3 id="left_hex"></h3>
 				<p id="left_definition"></p>
 				<p id="left_description"></p>
 			</div>
-			<div id="right" style="display:none;">
+			<div id="right">
 				<hr/>
 				<h2>Transformed Hexagram</h2>
 				<h3 id="right_hex"></h3>
@@ -44,12 +47,12 @@
 				<p id="right_description"></p>
 			</div>
 		</div>
-		<div class="row center" id="again" style="display:none;">
+		<div id="again" class="animate" style="display:none;">
 			<hr/>
-			<a href="" style="text-decoration:none;"><button class="green">Consult the oracle again!</button></a>
+			<a href="" style="text-decoration:none;"><button class="green hang">Consult the oracle again!</button></a>
 		</div>
 	</div>
-	<footer><span class="copyleft">©</span> <a href="https://github.com/ablwr">ablwr</a></footer>
+	<footer><a class="hang" href="https://github.com/ablwr"><span class="copyleft">©</span> ablwr</a></footer>
 	<script type="text/javascript" src="js/yarrow-sort.js"></script>
 	<!--  Uncool way to grab faux-JSON but dont feel like running a server -->
 	<script type="text/javascript" src="js/hexagrams.js"></script>

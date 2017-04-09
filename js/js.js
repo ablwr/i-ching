@@ -1,9 +1,9 @@
 var results = ""
-var results_left, results_right
+var resultsLeft, resultsRight
 var click_counter = 0;
 var cast = document.getElementById('cast')
 var number_text = document.getElementById('number')
-var changing = document.getElementById('changing')
+var changing = document.getElementById('thatWhichIsCast')
 var left = document.getElementById('left')
 var right = document.getElementById('right')
 
@@ -11,8 +11,8 @@ var right = document.getElementById('right')
 cast.addEventListener('click', function(e){
   LineCast();
   results += ResultingLine;
-  results_left = results.replace(/x/g, "0").replace(/o/g, "1")
-  results_right = results.replace(/x/g, "1").replace(/o/g, "0")
+  resultsLeft = results.replace(/x/g, "0").replace(/o/g, "1")
+  resultsRight = results.replace(/x/g, "1").replace(/o/g, "0")
 
   line = document.createElement('div')
   line.classList.add('line')
@@ -27,11 +27,11 @@ cast.addEventListener('click', function(e){
     fadeAway(document.getElementById('guide'));
     document.getElementById('left').style.display = ''
     document.getElementById('right').style.display = ''
-    changing.style.display = ''
+    fadeAlong(changing)
 
     // list the changing lines
-    for (i=0; i<results_left.length; i++) {
-      if (results_right[i] != results_left[i]){
+    for (i=0; i<resultsLeft.length; i++) {
+      if (resultsRight[i] != resultsLeft[i]){
         cl = document.getElementById('changing_lines')
         cl.innerHTML += 'Line ' + (i+1)
         cl.appendChild(document.createElement('br'))
@@ -39,13 +39,13 @@ cast.addEventListener('click', function(e){
     }
 
     // show the cast hexagram
-    document.getElementById('left_hex').innerHTML += hexagrams[0][results_left]['hexagram']
-    document.getElementById('left_definition').innerHTML += hexagrams[0][results_left]['definition']
-    document.getElementById('left_description').innerHTML += hexagrams[0][results_left]['description']
+    document.getElementById('left_hex').innerHTML += hexagrams[0][resultsLeft]['hexagram']
+    document.getElementById('left_definition').innerHTML += hexagrams[0][resultsLeft]['definition']
+    document.getElementById('left_description').innerHTML += hexagrams[0][resultsLeft]['description']
     buildLinks(left);
 
     // check for rule 1, no lines changing
-    if (results_left == results_right) {
+    if (resultsLeft == resultsRight) {
       p = document.createElement('p')
       p.innerHTML = 'No changing lines! Only the cast hexagram applies!'
       changing.appendChild(p)
@@ -61,33 +61,33 @@ cast.addEventListener('click', function(e){
     changing_text = document.getElementById('changing_text')
     if (changing_lines === 1) {
       changing_desc.innerHTML += 'There is one changing line. Consult this changing line.'
-      change_text = hexagrams[0][results_left]['number'] + "_" + (indices[0]+1)
+      change_text = hexagrams[0][resultsLeft]['number'] + "_" + (indices[0]+1)
       changing_text.innerHTML += changing_map[0][change_text]
     } else if (changing_lines === 2) {
       changing_desc.innerHTML += 'There are two changing lines. The upper line prevails..'
-      change_text = hexagrams[0][results_left]['number'] + "_" + (indices[1]+1)
+      change_text = hexagrams[0][resultsLeft]['number'] + "_" + (indices[1]+1)
       changing_text.innerHTML += changing_map[0][change_text]
     } else if (changing_lines === 3) {
       changing_desc.innerHTML += 'There are three changing lines. The middle line prevails.'
-      change_text = hexagrams[0][results_left]['number'] + "_" + (indices[1]+1)
+      change_text = hexagrams[0][resultsLeft]['number'] + "_" + (indices[1]+1)
       changing_text.innerHTML += changing_map[0][change_text]
     } else if (changing_lines === 4) {
       changing_desc.innerHTML += 'There are four changing lines. The upper, non-changing line prevails.'
-      change_text = hexagrams[0][results_left]['number'] + "_" + (indices[3]+1)
+      change_text = hexagrams[0][resultsLeft]['number'] + "_" + (indices[3]+1)
       changing_text.innerHTML += changing_map[0][change_text]
     } else if (changing_lines === 5) {
       changing_desc.innerHTML += 'There are five changing lines. The only non-changing line prevails.'
       for(var i=1;i<=6;i++) { if(indices.indexOf(i) == -1){missing = i} }
-      change_text = hexagrams[0][results_left]['number'] + "_" + missing
+      change_text = hexagrams[0][resultsLeft]['number'] + "_" + missing
       changing_text.innerHTML += changing_map[0][change_text]
     } else if (changing_lines === 6) {
       changing_desc.innerHTML = 'All changing lines! Only the transformed hexagram applies!'
     }
 
     // show the transformed hexagram
-    document.getElementById('right_hex').innerHTML += hexagrams[0][results_right]['hexagram']
-    document.getElementById('right_definition').innerHTML += hexagrams[0][results_right]['definition']
-    document.getElementById('right_description').innerHTML += hexagrams[0][results_right]['description']
+    document.getElementById('right_hex').innerHTML += hexagrams[0][resultsRight]['hexagram']
+    document.getElementById('right_definition').innerHTML += hexagrams[0][resultsRight]['definition']
+    document.getElementById('right_description').innerHTML += hexagrams[0][resultsRight]['description']
     buildLinks(right);
 
     fadeAlong(document.getElementById('again'))
@@ -95,8 +95,13 @@ cast.addEventListener('click', function(e){
 });
 
 function fadeAlong(el) {
-  el.style.opacity = 0;
-  el.style.display = '';
+  el.style.opacity = 0
+  el.style.display = ''
+  if (el.classList) {
+    el.classList.add('FadeUpContent')
+  } else {
+    el.className += ' ' + 'FadeUpContent'
+  }
   var last = +new Date();
   var tick = function() {
     el.style.opacity = +el.style.opacity + (new Date() - last) / 400;
@@ -124,7 +129,7 @@ function fadeAway(el) {
 
 function buildLinks(el) {
   left_or_right = (el.id === 'left') ? left : right
-  link_results = (el.id === 'left') ? results_left : results_right
+  link_results = (el.id === 'left') ? resultsLeft : resultsRight
   a = document.createElement('a');
   wiki = 'https://en.wikipedia.org/wiki/List_of_hexagrams_of_the_I_Ching#Hexagram_' + hexagrams[0][link_results]['number']
   a.setAttribute('href', wiki);
