@@ -12,16 +12,16 @@ body {
 
 button {
   display: inline-block;
-  padding: 4px 15px 4px 15px;
+  padding: 0.2rem 2rem 0.2rem 2rem;
   text-align: center;
-  line-height: 38px;
+  line-height: 3rem;
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   text-transform: none;
-  border-radius: 4px;
+  border-radius: 0.2rem;
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box;
@@ -53,7 +53,7 @@ footer a {
 
 .main {
   background-color: rgba(255, 255, 255, 0.15);
-  margin-top: 48px;
+  margin-top: 2rem;
   border-radius: 1px;
   box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.08);
   width: 800px;
@@ -177,8 +177,8 @@ a {
 #changing p {
   margin-bottom: 0;
   margin-top: 0;
-  margin-left: 22px;
-  margin-right: 22px;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .green {
