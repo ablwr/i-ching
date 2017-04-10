@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 22px;
   line-height: 1.4;
 }
@@ -88,7 +88,7 @@ hr {
 
 #left_hex, #right_hex {
   margin: 0;
-  font-family: 'Zapf Dingbats', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-size: 12rem;
   font-weight: 300;
