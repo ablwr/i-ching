@@ -88,6 +88,8 @@ hr {
 
 #left_hex, #right_hex {
   margin: 0;
+  font-family: sans-serif;
+  font-style: normal;
   font-size: 12rem;
   font-weight: 300;
   line-height: 8rem;
