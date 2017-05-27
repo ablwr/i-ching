@@ -1,0 +1,1357 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70">
+<defs>
+	<style><![CDATA[
+		.sprite { display: none; }
+		.sprite:target { display: inline; }
+	]]></style>
+</defs>
+<g class="sprite" id="01">
+  <path stroke-width="66" stroke="#000" stroke-dasharray="6" d="m35,2v66"/>
+</g>
+<g class="sprite" id="02">
+  <path stroke-width="28" stroke="#000" stroke-dasharray="6" d="M16,2v66m38,0V2"/>
+</g>
+<g class="sprite" id="03">
+  <path stroke-width="28" stroke="#000" stroke-dasharray="6" d="M16,68V2m19,12v6m0,42v6m19,0V2"/>
+</g>
+<g class="sprite" id="04">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="05">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="06">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="07">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="08">
+  <path xmlns="http://www.w3.org/2000/svg" stroke-width="6" stroke="#000" d="m2,5h28m10,0h28m0,12H2m0 12h28m10,0h28m0,12H40m-10,0H2m0,12H30m10,0H68m0,12H40m-10,0H2"/>
+</g>
+<g class="sprite" id="09">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="10">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="11">
+  <path stroke-width="28" stroke="#000" stroke-dasharray="6" d="M16,68V2m38,0v66m-19,0V38"/>
+</g>
+<g class="sprite" id="12">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="13">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="14">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="15">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="16">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="17">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="18">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="19">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="20">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="21">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="22">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="23">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="24">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="25">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="26">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="27">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="28">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="29">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="30">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="31">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="32">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="33">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="34">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="35">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="36">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="37">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="38">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="39">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="40">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="41">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="42">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="43">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="44">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="45">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="46">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="47">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="48">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="49">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="50">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="51">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="52">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="53">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="54">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="55">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="56">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="57">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="58">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="59">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="60">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="61">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line3-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="62">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line1-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line5-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="63">
+  <g id="g-line1" transform="translate(0,0)">
+    <rect id="r-line1-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line2" transform="translate(0,-12)">
+    <rect id="r-line2-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line2-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line3" transform="translate(0,-24)">
+    <rect id="r-line3-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line4" transform="translate(0,-36)">
+    <rect id="r-line4-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line4-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line5" transform="translate(0,-48)">
+    <rect id="r-line5-yang" width="66" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+  <g id="g-line6" transform="translate(0,-60)">
+    <rect id="r-line6-yinleft" width="28" height="6" x="2" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+    <rect id="r-line6-yinright" width="28" height="6" x="40" y="62" style="fill:#000000;fill-opacity:1;stroke:none"/>
+  </g>
+</g>
+<g class="sprite" id="64">
+  <path stroke-width="28" stroke="#000" stroke-dasharray="6,18" d="M16,2v66m0,0V2m19,0v78m19,0V2m0,12v66"/>
+</g>
+</svg>
