@@ -39,7 +39,8 @@ cast.addEventListener('click', function(e){
     }
 
     // show the cast hexagram
-    document.getElementById('left_hex').setAttribute('data',('hex.svg#' + hexagrams[0][resultsLeft]['number']))
+    var left_num = hexagrams[0][resultsLeft]['number'].length > 1 ? hexagrams[0][resultsLeft]['number'] : "0" + hexagrams[0][resultsLeft]['number']
+    document.getElementById('left_hex').setAttribute('data',('hex.svg#' + left_num))
     document.getElementById('left_definition').innerHTML += hexagrams[0][resultsLeft]['definition']
     document.getElementById('left_description').innerHTML += hexagrams[0][resultsLeft]['description']
     buildLinks(left);
@@ -80,7 +81,8 @@ cast.addEventListener('click', function(e){
     }
 
     // show the transformed hexagram
-    document.getElementById('right_hex').setAttribute('data',('hex.svg#' + hexagrams[0][resultsRight]['number']))
+    var right_num = hexagrams[0][resultsRight]['number'].length > 1 ? hexagrams[0][resultsRight]['number'] : "0" + hexagrams[0][resultsRight]['number']
+    document.getElementById('right_hex').setAttribute('data',('hex.svg#' + right_num))
     document.getElementById('right_definition').innerHTML += hexagrams[0][resultsRight]['definition']
     document.getElementById('right_description').innerHTML += hexagrams[0][resultsRight]['description']
     buildLinks(right);
