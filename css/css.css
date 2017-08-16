@@ -82,6 +82,12 @@ hr {
   animation: change-in 2s alternate linear;
 }
 
+#changing {
+  background-color: rgba(100, 100, 150, 0.2);
+  margin: 1rem;
+  animation: change-in 2s alternate linear;
+}
+
 #changing_text {
   font-weight: 700;
 }
