@@ -38,7 +38,7 @@ var hexagrams = [{
   "110111": {"definition": "10. Treading (履 lǚ); Treading (Conduct); Continuing with Alertness",
             "hexagram": " ䷉ ",
             "number": "10",
-            "description": "Sheaven shines down on the Marsh which reflects it back imperfectly: Though the Superior Man carefully discriminates between high and low, and acts in accord with the flow of the Tao, there are still situations where a risk must be taken. You tread upon the tail of the tiger. Not perceiving you as a threat, the startled tiger does not bite. Success."},
+            "description": "Sheaven shines down on the Marsh which reflects it back imperfectly: Though the Superior Woman carefully discriminates between high and low, and acts in accord with the flow of the Tao, there are still situations where a risk must be taken. You tread upon the tail of the tiger. Not perceiving you as a threat, the startled tiger does not bite. Success."},
   "111000": {"definition": "11. Pervading (泰 tài); Peace; Pervading",
             "hexagram": " ䷊ ",
             "number": "11",
@@ -210,7 +210,7 @@ var hexagrams = [{
   "001011": {"definition": "53. Infiltrating (漸 jiàn); Development; Auspicious Outlook, Infiltration",
             "hexagram": " ䷴ ",
             "number": "53",
-            "description": "The gnarled Pine grows tenaciously off the Cliff face: The Superior Person clings faithfully to dignity and integrity, thus elevating the Collective Spirit of Man in her own small way. Development. The maiden is given in marriage. Good fortune if you stay on course."},
+            "description": "The gnarled Pine grows tenaciously off the Cliff face: The Superior Person clings faithfully to dignity and integrity, thus elevating the Collective Spirit of Woman in her own small way. Development. The maiden is given in marriage. Good fortune if you stay on course."},
   "110100": {"definition": "54. Converting The Maiden (歸妹 guī mèi); The Marrying Maiden; Marrying",
             "hexagram": " ䷵ ",
             "number": "54",
@@ -254,5 +254,5 @@ var hexagrams = [{
   "010101": {"definition": "64. Not-Yet Fording (未濟 wèi jì); Before Completion; Incompletion",
             "hexagram": " ䷿ ",
             "number": "64",
-            "description": "Fire ascends above the Water: The Superior Person examines the nature of things and keeps each in its proper place. Too anxious the young fox gets her tail wet, just as she completes her crossing. To attain success, be like the man and not like the fox."}
+            "description": "Fire ascends above the Water: The Superior Person examines the nature of things and keeps each in its proper place. Too anxious the young fox gets her tail wet, just as she completes her crossing. To attain success, be like the woman and not like the fox."}
 }]
