@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 22px;
   line-height: 1.4;
 }
@@ -10,7 +10,7 @@ body {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-gap: 1em;
+  grid-gap: 2em;
   grid-template-areas:
    "header"
    "introduction"
@@ -23,6 +23,7 @@ body {
   grid-area: introduction;
   float: left;
   padding-left: 4rem;
+  padding-top: 16vh;
 }
 
 #thatWhichIsCast {
@@ -97,9 +98,14 @@ hr {
   opacity: 0.5;
 }
 
-
 #left, #right {
+  padding: 2rem;
+  padding-top: 2rem;
   animation: change-in 2s alternate linear;
+}
+
+#left object, #right object {
+  width: 100%;
 }
 
 
@@ -115,7 +121,7 @@ hr {
 }
 
 #changing p {
-  padding-top:1rem;
+  padding-top: 0.5rem;
 }
 
 #changing_text {
@@ -125,7 +131,7 @@ hr {
 #left_hex, #right_hex {
   text-align: center;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-style: normal;
   font-size: 12rem;
   font-weight: 300;
@@ -139,16 +145,21 @@ hr {
   margin-right: 2rem;
 }
 
+#left_definition, #right_definition {
+  font-weight: 800;
+}
+
+
 h1 {
   font-family: 'Ruthie', cursive;
-  font-size: 6rem;
+  font-size: 8rem;
   margin: 0;
   font-weight: 300;
 }
 
 h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2em;
   font-style: oblique;
 }
 

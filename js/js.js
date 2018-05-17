@@ -136,7 +136,7 @@ function getChanges() {
     change_text = hexagrams[0][resultsLeft]['number'] + "_" + (indices[0]+1)
     changing_text.innerHTML += changing_map[0][change_text]
   } else if (changing_lines === 2) {
-    changing_desc.innerHTML += 'There are two changing lines. The upper line prevails..'
+    changing_desc.innerHTML += 'There are two changing lines. The upper line prevails.'
     change_text = hexagrams[0][resultsLeft]['number'] + "_" + (indices[1]+1)
     changing_text.innerHTML += changing_map[0][change_text]
   } else if (changing_lines === 3) {
