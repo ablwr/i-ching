@@ -23,6 +23,7 @@ body {
   grid-area: introduction;
   float: left;
   padding-left: 4rem;
+  padding-right: 4rem;
   padding-top: 16vh;
 }
 
@@ -105,6 +106,7 @@ hr {
 }
 
 #left object, #right object {
+  padding-top: 2rem;
   width: 100%;
 }
 
@@ -116,6 +118,7 @@ hr {
 }
 
 #changing {
+  padding: 1rem;
   padding-top: 5vh;
   animation: change-in 2s alternate linear;
 }
@@ -141,12 +144,16 @@ hr {
 #left_definition, #left_description, #right_definition, #right_description {
   margin-bottom: 0;
   margin-top: 0;
-  margin-left: 2rem;
   margin-right: 2rem;
+  font-weight: 300;
 }
 
 #left_definition, #right_definition {
   font-weight: 800;
+}
+
+#left_description, #right_description {
+  margin-left: 2.5rem;
 }
 
 
@@ -159,7 +166,7 @@ h1 {
 
 h2 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 2em;
+  font-size: 2.5em;
   font-style: oblique;
 }
 

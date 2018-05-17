@@ -24,6 +24,7 @@ cast.addEventListener('click', function(e){
 
 function iChing() {
   fadeToResults();
+  window.scrollTo(0,0);
   listLines();
   showLeft();
   getChanges();
