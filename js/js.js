@@ -2,7 +2,6 @@ var results = ""
 var resultsLeft, resultsRight
 var ResultingLine;
 var cast = document.getElementById('cast')
-var number_text = document.getElementById('number')
 var changing = document.getElementById('thatWhichIsCast')
 var left = document.getElementById('left')
 var right = document.getElementById('right')
@@ -72,7 +71,6 @@ function fadeAway(el) {
 function fadeToResults(el) {
   document.getElementById('cast').setAttribute('disabled', true);
   fadeAway(cast);
-  fadeAway(number_text);
   fadeAway(document.getElementById('guide'));
   document.getElementById('left').style.display = '';
   document.getElementById('right').style.display = '';
