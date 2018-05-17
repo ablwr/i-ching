@@ -29,6 +29,8 @@ function iChing() {
   getChanges();
   showRight()
   window.scrollTo(0,80);
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
   window.location.hash = results;
 
   fadeAlong(document.getElementById('again'));
