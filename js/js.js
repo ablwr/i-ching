@@ -24,12 +24,11 @@ cast.addEventListener('click', function(e){
 
 function iChing() {
   fadeToResults();
-  window.scrollTo(0,0);
   listLines();
   showLeft();
   getChanges();
   showRight()
-
+  window.scrollTo(0,80);
   window.location.hash = results;
 
   fadeAlong(document.getElementById('again'));
