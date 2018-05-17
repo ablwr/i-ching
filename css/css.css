@@ -159,10 +159,17 @@ hr {
 
 h1 {
   font-family: 'Ruthie', cursive;
-  font-size: 6rem;
+  font-size: 18vw;
   margin: 0;
   font-weight: 300;
 }
+
+#translation {
+  font-size: 4vw;
+  padding-right: 4rem;
+  margin-top: -1.2em;
+}
+
 
 h2 {
   font-family: 'IBM Plex Sans', sans-serif;
@@ -172,11 +179,6 @@ h2 {
 
 a {
   color: black;
-}
-
-#translation {
-  padding-right: 4em;
-  margin-top: -2rem;
 }
 
 #hexagram {
