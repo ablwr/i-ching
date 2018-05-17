@@ -88,7 +88,7 @@ footer a {
   height: 100%;
   position: fixed;
   z-index:-1;
-  background: linear-gradient(0deg, rgb(103, 185, 240), rgb(185,166,221), rgb(212,166,221), rgb(109, 152, 212), rgb(174, 117, 221));
+  background: linear-gradient(0deg, rgb(156, 210, 246), rgb(232, 186, 255), rgb(236, 168, 240), rgb(143, 183, 240), rgb(203, 146, 249), rgb(178, 217, 250));
   background-size: 600% 600%;
   -webkit-animation: colors 60s ease infinite;
   -moz-animation: colors 60s ease infinite;
