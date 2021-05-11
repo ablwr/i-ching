@@ -80,18 +80,21 @@ footer a {
   text-decoration: none;
 }
 
-
 #canvas {
   top: 0;
   width: 100%;
   height: 100%;
   position: fixed;
   z-index:-1;
-  background: linear-gradient(0deg, rgb(156, 210, 246), rgb(232, 186, 255), rgb(236, 168, 240), rgb(143, 183, 240), rgb(203, 146, 249), rgb(178, 217, 250));
-  background-size: 600% 600%;
-  -webkit-animation: colors 60s ease infinite;
-  -moz-animation: colors 60s ease infinite;
-  animation: colors 60s ease infinite;
+  background: linear-gradient(0deg, rgb(156, 210, 246), rgb(232, 186, 255), rgb(236, 168, 240), rgb(143, 183, 240), rgb(236, 168, 240), rgb(232, 186, 255), rgb(156, 210, 246));
+  background-size: 500% 500%;
+  animation: colors 60s ease-in-out infinite;
+}
+
+@keyframes colors {
+  0% {background-position: 0% 0%}
+  50% {background-position: 0% 100%}
+  100% {background-position: 0% 0%}
 }
 
 hr {
@@ -222,19 +225,6 @@ a {
 
 .show:hover {
   border-color: rgb(122, 191, 55)
-}
-
-@-webkit-keyframes colors {
-  0%{background-position:0% 0%}
-  100%{background-position:0% 100%}
-}
-@-moz-keyframes colors {
-  0%{background-position:0% 0%}
-  100%{background-position:0% 100%}
-}
-@keyframes colors {
-  0%{background-position:0% 0%}
-  100%{background-position:0% 100%}
 }
 
 .copyleft {
